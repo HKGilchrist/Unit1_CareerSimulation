@@ -2,6 +2,15 @@
   background-color: #2c4c3b;
   color: #f5f5f5; 
   overflow: hidden; 
+  display: flex; 
+  justify-content: space-between; 
+}
+
+#logo {
+  padding: 15px 20px; 
+  font-size: 20px; 
+  text-decoration: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .navbar a {
@@ -20,3 +29,52 @@
   text-decoration: underline;
 }
 
+body {
+  background-color: #2c4c3b;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  min-height: 100vh;
+  display: flex; 
+  flex-direction: column; 
+}
+
+.container {
+  background-color: #2c4c3b;
+  display: flex; 
+  justify-content: center;
+}
+
+.abouttext {
+  display: inline-block; 
+  color: #f5f5f5; 
+  text-align: center;
+  align-self: center;
+  padding-left: 30px;
+}
+
+.HG {
+  flex-grow: 1;
+  max-width: 30%; 
+  max-height: 15%; 
+  display: inline;
+  align-self: auto; 
+}
+
+footer {
+  padding: 20px; 
+  display: flex; 
+  justify-content: center;
+}
+
+#linkedinlogo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px; 
+}
+
+/*There has got to be a better way to add spacing to the footer.*/
+
+#githublogo {
+  width: 70px;
+  height: 40px;
+  margin-left: 10px; 
+}
