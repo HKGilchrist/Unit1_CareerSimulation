@@ -1,14 +1,15 @@
 .navbar {
-  background-color: #2c4c3b;
+  background-color: #233c2f;
   color: #f5f5f5; 
   overflow: hidden; 
   display: flex; 
   justify-content: space-between; 
+  padding: 3px; 
 }
 
 #logo {
   padding: 15px 20px; 
-  font-size: 20px; 
+  font-size: 24px; 
   text-decoration: none;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -58,6 +59,7 @@ body {
   max-width: 30%; 
   max-height: 15%; 
   align-self: auto; 
+  box-shadow: 10px 10px 2px #6b8175;
 }
 
 footer {
@@ -83,7 +85,7 @@ footer {
 h2 {
   color: #f5f5f5; 
   text-align: center;
-  margin: 10px;
+  margin: 5px;
 }
 
 hr {
@@ -109,6 +111,10 @@ hr {
   text-align: center;
 }
 
+.activitypicture {
+  border-radius: 15px 50px;
+}
+
 .projects {
   background-color: #f5f5f5;
   color: #233c2f;
@@ -118,6 +124,10 @@ hr {
   display: grid;
   grid-template-columns: 3fr auto;
   padding: 20px;
+}
+
+.projectpicture {
+  border-radius: 50%; 
 }
 
 .project-text {
